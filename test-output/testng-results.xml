@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21478" started-at="2018-08-23T15:38:52Z" finished-at="2018-08-23T15:39:14Z">
+    <groups>
+    </groups>
+    <test name="Sample" duration-ms="21478" started-at="2018-08-23T15:38:52Z" finished-at="2018-08-23T15:39:14Z">
+      <class name="testcase.TestCase_Demo">
+        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@28eaa59a]" name="parallel_demo" duration-ms="20615" started-at="2018-08-23T15:38:53Z" data-provider="dp" finished-at="2018-08-23T15:39:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchString=A, browserName=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallel_demo -->
+        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@28eaa59a]" name="parallel_demo" duration-ms="21369" started-at="2018-08-23T15:38:53Z" data-provider="dp" finished-at="2018-08-23T15:39:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchString=D, browserName=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallel_demo -->
+        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@28eaa59a]" name="parallel_demo" duration-ms="21410" started-at="2018-08-23T15:38:53Z" data-provider="dp" finished-at="2018-08-23T15:39:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchString=B, browserName=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallel_demo -->
+        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@28eaa59a]" name="parallel_demo" duration-ms="21323" started-at="2018-08-23T15:38:53Z" data-provider="dp" finished-at="2018-08-23T15:39:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchString=C, browserName=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallel_demo -->
+      </class> <!-- testcase.TestCase_Demo -->
+    </test> <!-- Sample -->
+  </suite> <!-- Suite -->
+</testng-results>
