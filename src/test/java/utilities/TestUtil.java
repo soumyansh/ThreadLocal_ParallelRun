@@ -30,7 +30,7 @@ public class TestUtil extends TestBase {
 
 		File dest = new File(destpath);
 		FileUtils.copyFile(scr, dest);
-		logger.log(LogStatus.INFO, logger.addScreenCapture(destpath));
+		getLocallogger().log(LogStatus.INFO, getLocallogger().addScreenCapture(destpath));
 
 	}
 

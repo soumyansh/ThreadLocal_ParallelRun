@@ -5,7 +5,8 @@
     <classes>
       <class name="testcase.TestCase_Demo">
         <methods>
-          <include name="parallel_demo"/>
+          <include name="parallel_demo" invocation-numbers="2 1 3 0"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- testcase.TestCase_Demo -->
     </classes>
