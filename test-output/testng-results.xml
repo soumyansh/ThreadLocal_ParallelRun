@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23376" started-at="2018-09-03T17:06:22Z" finished-at="2018-09-03T17:06:45Z">
+  <suite name="Suite" duration-ms="19667" started-at="2018-09-03T17:32:21Z" finished-at="2018-09-03T17:32:41Z">
     <groups>
     </groups>
-    <test name="Sample" duration-ms="23376" started-at="2018-09-03T17:06:22Z" finished-at="2018-09-03T17:06:45Z">
+    <test name="Sample" duration-ms="19667" started-at="2018-09-03T17:32:21Z" finished-at="2018-09-03T17:32:41Z">
       <class name="testcase.TestCase_Demo">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="setup" is-config="true" duration-ms="93" started-at="2018-09-03T17:06:22Z" finished-at="2018-09-03T17:06:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="setup" is-config="true" duration-ms="109" started-at="2018-09-03T17:32:21Z" finished-at="2018-09-03T17:32:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="parallel_demo" duration-ms="23344" started-at="2018-09-03T17:06:22Z" data-provider="dp" finished-at="2018-09-03T17:06:45Z">
+        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="parallel_demo" duration-ms="19619" started-at="2018-09-03T17:32:21Z" data-provider="dp" finished-at="2018-09-03T17:32:41Z">
           <params>
             <param index="0">
               <value>
@@ -22,18 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parallel_demo -->
-        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="parallel_demo" duration-ms="23281" started-at="2018-09-03T17:06:22Z" data-provider="dp" finished-at="2018-09-03T17:06:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{SearchString=D, browserName=chrome}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- parallel_demo -->
-        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="parallel_demo" duration-ms="23141" started-at="2018-09-03T17:06:22Z" data-provider="dp" finished-at="2018-09-03T17:06:45Z">
+        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="parallel_demo" duration-ms="18443" started-at="2018-09-03T17:32:21Z" data-provider="dp" finished-at="2018-09-03T17:32:40Z">
           <params>
             <param index="0">
               <value>
@@ -44,11 +33,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- parallel_demo -->
-        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="parallel_demo" duration-ms="23313" started-at="2018-09-03T17:06:22Z" data-provider="dp" finished-at="2018-09-03T17:06:45Z">
+        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="parallel_demo" duration-ms="19588" started-at="2018-09-03T17:32:21Z" data-provider="dp" finished-at="2018-09-03T17:32:41Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[{SearchString=A, browserName=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parallel_demo -->
+        <test-method status="PASS" signature="parallel_demo(java.util.Hashtable)[pri:0, instance:testcase.TestCase_Demo@6a192cfe]" name="parallel_demo" duration-ms="19651" started-at="2018-09-03T17:32:21Z" data-provider="dp" finished-at="2018-09-03T17:32:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{SearchString=D, browserName=chrome}]]>
               </value>
             </param>
           </params>

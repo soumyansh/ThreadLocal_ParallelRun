@@ -3,6 +3,7 @@ package utilities;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Hashtable;
 
@@ -17,13 +18,13 @@ import com.relevantcodes.extentreports.LogStatus;
 import testbase.TestBase;
 
 public class TestUtil extends TestBase {
-	public static String ScreenShotName;
+	
 
 	public static void CaptureScreenshot() throws IOException {
 		Date d = new Date();
 		String d1 = d.toString().replace(":", "_").replace(" ", "_");
-
-		ScreenShotName = "Screen_" + d1 + ".jpg";
+       long l=Calendar.getInstance().getTimeInMillis();
+		String ScreenShotName = "Screen_" + l+ ".jpg";
 		File scr = ((TakesScreenshot) getLocadriver()).getScreenshotAs(OutputType.FILE);
 
 		String destpath = System.getProperty("user.dir") + "//src//test//Screenshots//" + ScreenShotName;
